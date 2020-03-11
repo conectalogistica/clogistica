@@ -1,0 +1,60 @@
+footer{
+    background-color: $negro1;
+    text-align: center;
+    padding-top: 20px;
+
+    .conecta{
+        height: 15vh;
+        width: auto;
+    }
+
+    .mtt{
+        height: 24vh;
+        width: auto;
+    }
+
+    .corfo{
+        height: 10vh;
+        width: auto;
+    }
+    img{
+        padding: 0 20px;
+    }
+
+}
+
+@media screen and (min-width: $viewport-ml) {
+    footer{
+        .logos{
+            display: flex;
+            justify-content: center;
+            padding-top: 40px;
+        }
+        .links{
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+            .ref{
+                display: inline;
+                font-size: $small;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: $viewport-ml) {
+    footer{
+        img{
+            margin: auto;
+        }
+
+        .links{
+            justify-content: center;
+            padding-top: 50px;
+            .ref{
+                font-size: $small;
+            }
+        }
+    }
+}

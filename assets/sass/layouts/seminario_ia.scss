@@ -1,0 +1,19 @@
+.seminario_ia_presentaciones{
+    background-image: url("../img/fondo_noticias.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: $raleway;
+
+    .seminario_ia_presentaciones_centro{
+        padding-top: 10vh;
+        width: 70%;
+        margin-left: 15%;
+        background-color: $azul2;
+    }
+    iframe{
+        padding: 10vh 0;
+        width: 50vw;
+        height: 80vh;
+    }
+}

@@ -1,0 +1,74 @@
+.contacto{
+        background-color: $blanco;
+        height: auto;
+        display: flex;
+
+        span{
+            font-family: $raleway;
+        }
+}
+
+@media screen and (min-width: $viewport-large){
+    .contacto{
+        .formulario{
+            padding-top: 15vh;
+            //cambiar cuando estén las redes
+            padding-left: 30%;
+            width: 50%;
+        }
+    
+        .redes_contactos{
+            padding-top: 15vh;
+            padding-left: 10%;
+            width: 40%;
+        }
+    
+        img{
+            width: 50%;
+            margin-bottom: 10%;
+        }
+    
+        div{
+            padding: 5% 0;
+    
+            span{
+                padding-left: 5%;
+            }
+        }
+    }
+
+
+
+
+}
+
+@media screen and (max-width: $viewport-large){
+    .contacto{
+        justify-content: center;
+        flex-wrap: wrap;
+        .formulario{
+            iframe{
+                width: 90%;
+            }
+        }
+
+        .redes_contactos{
+            text-align: center;
+            .contact_red{
+                margin: 25px 0;
+            }
+            img{
+                display: none;
+            }
+        }
+    }
+}
+   
+.redes_contactos{
+    display: none;
+}
+    
+
+    
+
+    

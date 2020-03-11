@@ -1,0 +1,47 @@
+header{
+    height: 104vh;
+    background-image: url("../img/imagenconecta1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+@media screen and (min-width: $viewport-large) {
+
+    .cabecera{
+        height: 90vh;
+        text-align: center;
+        padding: 15% 25% 0 25%;
+        display: flex;
+        justify-content: center;
+
+        h1{
+            color: $azul;
+        }
+
+    }
+}
+
+@media screen and (max-width: $viewport-large) {
+
+    header{
+        background-position: 55% 50%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cabecera{
+        height: 90vh;
+        text-align: center;
+        padding: 40% 10% 0 10%;
+
+        h1{
+            font-size: $x-large;
+            color: $azul;
+        }
+    }
+}
+
+        
+

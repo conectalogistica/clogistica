@@ -1,0 +1,68 @@
+.quienes_somos{
+    background-color: $azul1;
+    .contenido{
+        .parrafo{
+            p{
+                color: white;
+                padding-top: 20px;
+                line-height: 140%;
+             }
+        }
+    }
+}
+
+@media screen and (min-width: $viewport-ml) {
+
+    .quienes_somos{
+        .titulo{
+            padding: 15vh 0 0 11%;
+    
+            h2{
+                font-weight: 800;
+            }
+        }
+
+        .contenido{
+            .parrafo{
+                padding: 50px 5% 140px 5%;
+                width: 50%;
+            }    
+
+            .v_conecta{
+                width: 50%;
+                padding-top: 10%;
+                padding-left: 10%;
+
+                iframe{
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $viewport-ml) {
+
+    .quienes_somos{
+        .titulo{
+            padding: 10vh 0 0 16vw;
+    
+            h2{
+                font-weight: 400;
+            }
+        }
+
+        .contenido{
+            .v_conecta{
+                width: 100vw;
+
+                iframe{
+                    padding: 40px 0;
+                    width: 97%;
+                }   
+            }
+        }
+    }
+}
+
+

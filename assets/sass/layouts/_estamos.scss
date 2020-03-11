@@ -1,0 +1,104 @@
+.estamos{
+    background-color: $azul1;
+    .noticia{
+        background-color: white;
+        padding: 30px;
+        text-align: center;
+        border-radius: 20px;
+
+        .title_news{
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            text-align: left;
+
+            h3{
+                width: 70%;
+            }
+
+            span{
+                font-size: $medium;
+                font-family: $opensans;
+                text-align: right;
+            }
+        }
+
+        p{
+            text-align: left;
+            padding: 20px;
+        }
+
+        .img_news_1{
+            width: 100%;
+            height: 200px;
+            background-image: url("https://i.imgur.com/lzqLEhQ.jpg");
+            background-size: cover;
+        }
+    
+        .img_news_2{
+            width: 100%;
+            height: 200px;
+            background-image: url("https://i.imgur.com/8Gh26xs.png");
+            background-size: cover;
+        }
+    
+        .img_news_3{
+            width: 100%;
+            height: 200px;
+            background-image: url("https://i.imgur.com/qMKlNR3.png");
+            background-size: cover;
+        }
+
+        span{
+            a{
+                color: $azul;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $viewport-ml) {
+    
+    .estamos{
+        .titulo{
+            padding: 15vh 0 0 11%;
+    
+            h2{
+                font-weight: 800;
+            }
+        }
+        .contenido{
+            display: flex;
+            justify-content: space-between;
+            padding: 4vh 5% 20vh 5%;
+
+            .noticia{
+                width: 30vw;
+                margin: 0 15px;
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: $viewport-ml) {
+    .estamos{
+        .titulo{
+            padding: 10vh 0 0 16vw;
+            h2{
+                font-weight: 400;
+            }
+        }
+
+        .contenido{
+            .noticia{
+                width: 90vw;
+                margin: 30px 5vw 50px 5vw;
+            }
+        }
+    }
+}
+
+

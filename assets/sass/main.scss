@@ -1,0 +1,19 @@
+@import 'vendors/bootstrap-4/bootstrap';
+
+@import 'abstracts/variables';
+
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'components/nav';
+
+@import 'layouts/header';
+@import 'layouts/quienes_somos';
+@import 'layouts/footer';
+@import 'layouts/areas_trabajo';
+@import 'layouts/estamos';
+@import 'layouts/contacto';
+@import 'layouts/noticias';
+@import 'layouts/novedades';
+@import 'layouts/seminario_ia.scss';
